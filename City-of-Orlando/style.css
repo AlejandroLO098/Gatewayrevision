@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+*{
+ box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #edccff;
+}
+
+header{
+  position: absolute;
+  margin: 1em; 
+  left: 0;
+  right: 0;
+}
+
+.logo{
+  width: 140px;
+  height: 75px;
+}
+h1{
+  font-weight:350; 
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  font-size: .8em;
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a{
+  text-decoration: none;
+  font-weight: 800;
+  color: #122573
+}
+
+nav a:hover,
+nav a:focus {
+  color: #edccff;
+}
+ @media (min-width:52rem) {
+   .logo{
+     float: left;
+   }
+   nav{
+     float: right;
+   }
+ }
+
+.title{
+  font-size:3.8em;
+  font-weight: bold;
+  color: #000000;
+}
+
+span{
+  color: #000000;
+}
+
+.container{
+  
+  height: auto;
+}
+
+.home-hero{
+  
+  background:
+  url("OrlandoHero.jpg") no-repeat center / cover;
+  padding: 15em 0;
+  padding-top: 30vh;
+  height: 100vh;
+}
+
+.orlando-about-textb{
+  height: 100vh;
+  background-color: #edccff;
+  padding:3em;
+  width: 100vw;
+  margin-left: -2.5%;
+  outline: 10px solid #383852;
+  outline-offset: -2.5em;
+  color: #0b0b14;
+  overflow: hidden;
+  font-size: 25px;
+}
+
+.orlando-about-textb h1{
+  color: #1f137c;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.park{
+  width: 35em;
+  height: 20em;
+  float: left;
+}
+  
+footer{
+background: #edccff;  
+padding: 6em;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+    
+}
+
+.social-links{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.social-links li{
+  margin:0 12px; 
+}
+
+.footer-bottom p{
+  font-size: 10px;
+}
+
+.logoo{
+  width: 140px;
+  height: 75px;
+}
